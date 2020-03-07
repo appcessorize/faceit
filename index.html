@@ -8,6 +8,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DTYF</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-159987383-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-159987383-1");
+    </script>
     <style>
       body {
         font-family: "Montserrat", sans-serif;
@@ -27,6 +41,8 @@
         visibility: hidden;
       }
       #video {
+        margin: 0 auto;
+        max-width: 90vw;
       }
       #canvas {
         height: 1vh;
@@ -45,8 +61,8 @@
     <script src="https://cdn.jsdelivr.net/npm/handtrackjs/dist/handtrack.min.js"></script>
     <script src="./app.js"></script>
     <h4>
-      Made by Matthew Gordon <a href="#">About</a>
-      <a href="mailto:name@email.com">Contact </a>
+      Made by Matthew Gordon <a href="./about.html">About/credits</a>
+      <a href="matt@easytreesy.co">Contact </a>
       <a
         href="https://www.nhs.uk/conditions/coronavirus-covid-19/common-questions/"
         >Why?</a
